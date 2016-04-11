@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>DOM</title>
+    
+    <style>
+        #sayhello {
+            background-color: red;
+            cursor: pointer;
+        
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="sayhello">Say Hello</div>
+    
+    <script>
+        
+        document.getElementById('sayhello').addEventListener('', function() {
+            document.getElementById('sayhello').style.backgroundColor="green";
+            alert("hello");
+        });
+        </script>
+
+</body>
+</html>
